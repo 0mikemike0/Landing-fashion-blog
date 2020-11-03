@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&display=swap');
+
+html, body {
+  max-width: 1960px;
+  height: 100%;
+  margin: 0 auto;
+  font-family: 'PT Serif', sans-serif;
+  color: #171717;
+}
+
+
+.navbar {
+  margin: 0 auto;
+  max-width: 1760px;
+}
+
+.nav-link {
+  font-size: 14px;
+}
+
+.main-article {
+  padding: 22vw 0 1vw 0;
+  background: url(../img/Hero.png) center / cover;
+  color: #fff;
+}
+
+main-article__category,
+main-article__details {
+  font-size: 14px;
+}
+
+.main-article__details span {
+  padding-left: 10px;
+}
+
+.main-article__title {
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.articles, .aside {
+  border: 1px solid rebeccapurple;
+  height: 500px;
+}
+
+.about-header {
+  height: 50px;
+  border: 1px solid #e5e5e5 ;
+  text-align: center;
+  font-size: 16px;
+  justify-content: center;
+  align-items: center;
+}
+
+.categories-list {
+  list-style: none;
+  padding: 0;
+}
+
+.categories-list li {
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 32% 32% 32%;
+  grid-template-rows: 32% 32% 32%;
+  grid-gap: 2px;
+  justify-content: space-between;
+}
+
+.social-links__element {
+  background-color: #F8F9FA;
+}
+
+.social-links__element .card-body {
+  padding: 1rem;
+}
+
+.social-links__element h6 {
+  color: #999999;
+  font-size: 12px;
+}
+.social-links__element i {
+  color: #5A5A5A;
+}
+
+.tags span {
+  background-color: #F8F9FA;
+  color: #666666;
+  padding: 5px 10px;
+  margin: 4px 4px 0 0;
+}
+
+.bottom {
+  max-width: 1880px;
+}
+
+.footer-brand {
+  text-align: center;
+}
+
+.menu {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+}
+
+.menu-item {
+  display: inline;
+}
+
+.menu-link {
+  color: #666666;
+}
+
+.menu-link:hover {
+  text-decoration: none;
+  color: #C9A96E;
+}
+
+.social {
+  list-style: none;
+  padding: 0;
+}
+
+/* .social-item {
+  border: 1px solid #E5E5E5;
+  border-radius: 50%;
+  text-align: center;
+  width: 34px;
+  height: 34px;
+} */
+
+.social-link {
+  display: inline-block;
+  /* vertical-align: middle; */
+  color: #666666;
+  border: 1px solid #E5E5E5;
+  border-radius: 50%;
+  text-align: center;
+  width: 34px;
+  height: 34px;
+}
+
+.social-link i {
+    vertical-align: sub;
+}
+
+.copyright {
+  text-align: center;
+  font-size: 14px;
+  color: #666666;
+  border-top: 1px solid #E5E5E5;
+}
+
+.social-link:hover {
+  border: none;
+  background-color: #C9A96E;
+  color: #fff;
+  text-shadow: #000 1px 0px, #000 1px 1px, #000 0px 1px, #000 -1px 1px, #000 -1px 0px, #000 -1px -1px, #000 0px -1px, #000 1px -1px;
+}
+
+
+/* 
+
+у всех карточек ховер эффект
+
+у карточки:
+  - цвет ссылки;
+  - тень;
+  - шрифт;
+  
+  
+  */
